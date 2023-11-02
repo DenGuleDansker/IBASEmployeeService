@@ -4,7 +4,7 @@ namespace IBASEmployeeService.Controllers
     using IBASEmployeeService.Models;
     
     [ApiController]
-    [Route("api/")]
+    [Route("[controller]")]
     public class EmployeeController : ControllerBase
     {
         private readonly ILogger<EmployeeController> _logger;
